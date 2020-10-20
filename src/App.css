@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.navbar{
+  background-color: darkcyan;
+  width: 100%; 
+  display: flex;
+  flex-direction: row; 
+  align-items: flex-start;
+  align-content: center;
+}
+.text-navbar{
+  color: aliceblue;
+  margin: 25px 0 0 10px;
+}
+.styled-select {
+  margin: 20px;
+  top: 10px 0 0 0;
+  width: 240px;
+  height: 34px;
+  overflow: hidden; 
+  border: 1px solid #ccc;
+  }
+.Gits{
+  display: table-column;
+  flex-direction: column;
+  top: 10px;
+  width: 88%;   
+  padding: 10px 0 10px 0;
+  margin: 10px;
+  background: #f7f7f7;
+  border: 2px solid rgba(147, 184, 189,0.8);
+  border-radius: 30px;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+ 
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+  list-style-type: none;
+}
+.git_card{
+  margin: 10px 0 10px 100px;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  flex-direction: row;
+}
+.git_image{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
